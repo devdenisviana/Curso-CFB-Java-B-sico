@@ -7,6 +7,10 @@ public class UsoArrays {
       for(int i=0; i<num.length;i++){
             System.out.printf("%d - ",num[i]);
       }
+
+      for(int n:num){
+            System.out.printf("%d - ",n);
+      }
 }
 
 }
